@@ -1,0 +1,35 @@
+@import "../style/colors.partial";
+@import "../style/breakpoints.partial";
+
+mat-toolbar {
+  display: flex;
+  background-color: $primary;
+  color: white;
+
+  img {
+    width: 45px;
+  }
+
+  & * {
+    margin-right: 12px;
+  }
+
+  button {
+    margin-left: auto;
+
+    mat-icon {
+      margin: 0;
+    }
+  }
+}
+
+.favorites-sidenav {
+  width: 400px;
+
+  @include mobile {
+    width: 100%;
+  }
+  @include tablet {
+    width: 100%;
+  }
+}

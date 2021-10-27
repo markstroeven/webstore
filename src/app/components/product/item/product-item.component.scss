@@ -1,0 +1,76 @@
+@import "../../../../style/colors.partial";
+@import "../../../../style/spacing.partial";
+
+$image-container-height: 250px;
+$image-height: 200px;
+$content-height: 100px;
+
+.product {
+  transition: all .4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: $medium-padding;
+
+  mat-card-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  mat-card-header *:last-child {
+    margin-left: auto !important;
+    margin-right: $medium-margin !important;
+  }
+
+  .image-container {
+    height: $image-container-height;
+
+    img {
+      margin-top: $medium-margin;
+      width: $image-height;
+    }
+  }
+
+  mat-card-actions {
+    width: 100%;
+    padding: $medium-padding;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      margin-left: auto;
+      background-color: $secondary;
+      color: white;
+    }
+
+    * {
+      padding: $small-padding;
+    }
+  }
+}
+
+.content {
+  height: $content-height;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.wishlist-card-header {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: $extra-large-margin !important;
+}
+
+.favorite-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

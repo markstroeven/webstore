@@ -1,0 +1,31 @@
+@import "../../../style/spacing.partial";
+
+.product-page {
+
+  .product-search-container {
+    display: flex;
+
+    form {
+      width: 100%;
+
+      mat-form-field {
+        width: 100%;
+      }
+    }
+
+    padding: $medium-padding $medium-padding 0 $medium-padding;
+  }
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  app-product-item {
+    flex: 1;
+  }
+
+  mat-grid-list {
+    margin: 0 $medium-margin $medium-margin $medium-margin;
+  }
+}

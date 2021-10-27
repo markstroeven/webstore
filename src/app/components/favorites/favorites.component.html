@@ -1,0 +1,9 @@
+<div class="favorites">
+  <h2>Mijn verlanglijst</h2>
+  <ng-container *ngIf="favorites.length > 0; else noFavorites">
+    <app-product-item mode="wishlist" *ngFor="let product of favorites" [product]="product"></app-product-item>
+  </ng-container>
+  <ng-template #noFavorites>
+    <p>U heeft nog geen opgeslagen favorieten.</p>
+  </ng-template>
+</div>

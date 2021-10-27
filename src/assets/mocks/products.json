@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "price": 99.99,
+    "name": "Razer Naga v2",
+    "description": "Dit is de Razer Naga X Gaming Muis. Een ergonomische MMO-gamingmuis met 16 knoppen.\nOf je nu een 'tank', een 'healer' of een 'DPS' bent: pas je aan elk gevecht aan en pak de overwinning met de Razer Naga X, een ergonomische MMO-gamingmuis met 16 programmeerbare knoppen om je vaardigheidsrotaties te optimaliseren. Maak je klaar om je beste prestaties neer te zetten dankzij het lagere gewicht en andere topfuncties van deze muis.",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://assets3.razerzone.com/M5ZjPrqn9o9RJqJtX476JvKCmWk=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhfd%2Fha6%2F9080569528350%2Frazer-naga-pro-500x500.png"
+  },
+  {
+    "id": 2,
+    "price": 79.99,
+    "name": "Razer Nari Ultimate",
+    "description": "De Razer Nari Ultimate Wireless Gaming Headset is er voor serieuze gamers die nóg dieper op willen gaan in hun games. De Nari Ultimate heeft namelijk een haptische feedback motor in elke oorschelp, waardoor je het daadwerkelijk voelt als er een kogel langs je virtuele hoofd vliegt of er een tank vlak naast je rijdt. De motor kan een breed bereik van frequenties genereren, waardoor ieder geluid even anders voelt als dat het klinkt. Combineer dit met THX 3D surround sound op pc en je hebt in nieuwe games een hele nieuwe shooter ervaring te pakken. Lange speelsessies kom je comfortabel door, dankzij de met memory foam en koelgel gevulde ovale oorschelpen. Let op: de mute knop en het balans schuifje doen het niet als de headset is aangesloten op een Xbox.",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://www.techinn.com/f/13749/137490877/razer-kraken-kitty-editie-gaming-kopfhorer.jpg"
+  },
+  {
+    "id": 3,
+    "price": 129.99,
+    "name": "Corsair K95 Platinum",
+    "description": "De Corsair K95 RGB Platinum XT Cherry MX Speed Qwerty is een gaming toetsenbord voor de competitieve speler en streamer. Met de 6 macro knoppen met ingebouwd geheugen beschik je in elke game of stream software over jouw specifieke macros. Door de Cherry MX Speed switches registreren jouw toetsaanslagen zo'n 40% sneller dan bij tegenstanders die met rode switches spelen, waardoor jij het scorebord domineert. Dit toetsenbord kan bovendien tegen een stootje, want de body van het toetsenbord is gemaakt van duurzaam aluminium. Je bepaalt zelf welke knoppen in welke van de 16,8 miljoen kleuren oplichten. Zo laat je bijvoorbeeld per game de belangrijkste knoppen in een andere, fellere kleur oplichten.",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://www.alternate.nl/p/600x600/n/Corsair_K95_RGB_PLATINUM_Mechanical_Gaming_Keyboard@@ntzvza2w_30.jpg"
+  },
+  {
+    "id": 4,
+    "price": 2899.99,
+    "name": "Alienware Area-51",
+    "description": "Powerhouse performance: The Alienware Area-51 delivers unbeatable performance with Intel® Core™ processors. Choose between an Intel Core i7, i9, or i9 Extreme with Turbo Boost Max 3.0 Technology for extreme megatasking capabilities. Record, game and stream simultaneously in 4K resolutions with options for up to 18 core processors.",
+    "category": "DESKTOP",
+    "stock": 10,
+    "imageUrl": "https://dubbelgaaf.nl/wp-content/uploads/2021/10/Alienware_Area51_R5_Front-scaled.jpg"
+  },
+  {
+    "id": 5,
+    "price": 1499.99,
+    "name": "Asus ROG M12",
+    "description": "De mobile GTX 1070 is gebaseerd op de GP106-chip en biedt 1280 shaders. Vergeleken met de identiek genaamde desktop-versie heeft de kaart een iets lagere kloksnelheid. Games zouden vloeiend speelbaar moeten zijn met deze kaart in Full-HD en met maximale detailinstellingen.\n\nDeze middenklasse grafische kaarten kunnen alle huidige spellen vloeiend spelen. Veeleisende spellen kunnen alleen met gemiddelde detail instellingen gespeeld worden.",
+    "category": "LAPTOP",
+    "stock": 10,
+    "imageUrl": "https://www.megekko.nl/productimg/908114/1_Asus-ROG-Zephyrus-M-GU603HE-K8004T-laptop.jpg"
+  },
+  {
+    "id": 6,
+    "price": 599.99,
+    "name": "Alienware AW2521HFLA",
+    "description": "24,5\" monitor met een vernieuwingsfrequentie van 240 Hz, een echte GtG fast IPS-responstijd van 1 ms en een intense kleurdekking vanuit elke hoek voor vlekkeloze gaming.",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://cdn.dewitgoedoutlet.nl/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/8/f/8fcb335701d79bf0b0f654e458749063.jpeg"
+  },
+  {
+    "id": 7,
+    "price": 2499.99,
+    "name": "Thunderstorm Xtreme R9",
+    "description": "De Thunderstorm by Alternate Xtreme R9 - RX 6800 XT is de ultieme Game PC voor de hardcore gamer. Uitgerust met een krachtige AMD Ryzen 9 5950X processor gekoeld door de iCUE H115i Elite Capellix Liquid waterkoeling, 64 GB DDR4 geheugen en een AMD Radeon RX 6800 XT videokaart kan je elke game moeiteloos op de hoogste instellingen spelen. Wees als eerste ingame door je games sneller te laden met de twee ingebouwde 1 en 2 TB SSD`s. Met de snelste hardware ben je je tegenstanders steeds een stapje voor.\nDe RGB controller biedt individueel instelbare RGB verlichting met software control voor unieke lichteffecten en levendige verlichting van je pc.",
+    "category": "DESKTOP",
+    "stock": 10,
+    "imageUrl": "https://www.megekko.nl/productimg/1030333/midi/1_Antec-Torque-Black-Red-Midi-Tower-Behuizing.jpg"
+  },
+  {
+    "id": 8,
+    "price": 99.99,
+    "name": "Alienware 610M",
+    "description": "Detachable cable, Auto-calibration, adjustable scrolling wheel, nylon braided cord, Omron technology, 20 million clicks, 5 on-the-fly DPI settings",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://dellshop.lk/wp-content/uploads/2021/08/mouse2.jpg"
+  },
+  {
+    "id": 9,
+    "price": 129.99,
+    "name": "Corsair Vengeance",
+    "description": "Verlicht uw systeem met levendige, geanimeerde verlichting van tien individueel adresseerbare, ultra-heldere RGB-LED's per module. VENGEANCE RGB PRO SL-modules gebruiken alleen strak afgeschermde geheugenchips, voor een uitgebreid overklokpotentieel.",
+    "category": "RAM",
+    "stock": 10,
+    "imageUrl": "https://m.media-amazon.com/images/I/81dGOtA7GsL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 10,
+    "price": 1399.99,
+    "name": "Logitech Rally",
+    "description": "Met een eersteklas industrieel ontwerp en een Ultra HD-beeldvormingssysteem staat de Rally-camera bovenaan het aanbod van standalone videocamera's van Logitech®. De Rally-camera zit vol met geavanceerde optics en baanbrekende technologieën, en levert eersteklas prestaties in professionele vergaderruimtes van alle soorten en maten. Met muisstil mechanisch pannen/kantelen/zoomen, haarscherpe 15x zoom in HD, een breed diagonaal gezichtsveld van 90° en een krachtige 4K-sensor legt de Rally-camera elke persoon in de zaal vast met een werkelijk fenomenale beeldkwaliteit.",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://cdn.webshopapp.com/shops/91456/files/319566711/800x600x2/logitech-logitech-rally-camera-webcam.jpg"
+  },
+  {
+    "id": 11,
+    "price": 120.99,
+    "name": "Razer Kishi",
+    "description": "Speel je favoriete mobile online game nu nog comfortabeler met de Razer Kishi Gaming Controller. Deze controller klik je tussen je telefoon in om zo extra knoppen en joysticks toe te voegen voor je game. Wat dacht je van een potje Fortnite op je mobiel, maar dan met echte toetsen? Met de Razer Kishi draai je er ja hand niet meer voor om. Deze uitvoering is speciaal gemaakt voor Android telefoons met usb C. Klik je telefoon tussen de controller en je bent klaar om te gamen. De Kishi zelf is inklapbaar, waardoor hij weinig ruimte inneemt in je tas. Zo neem je hem makkelijk mee onderweg en speel je in de trein of bus.",
+    "category": "PERIPHERALS",
+    "stock": 10,
+    "imageUrl": "https://image.coolblue.nl/max/500x500/products/1465843"
+  }
+]

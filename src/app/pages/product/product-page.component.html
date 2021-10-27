@@ -1,0 +1,18 @@
+<div class="product-page">
+  <div class="product-search-container">
+    <form [formGroup]="queryForm">
+      <mat-form-field appearance="outline">
+        <mat-label>Zoekopdracht</mat-label>
+        <input data-cy="query" matInput formControlName="query" type="text">
+        <button *ngIf="queryForm.controls.query.value" matSuffix mat-icon-button aria-label="Clear" (click)="queryForm.setValue({query : ''})">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+    </form>
+  </div>
+  <mat-grid-list #grid [cols]="4" rowHeight="550" gutterSize="12px">
+    <mat-grid-tile *ngFor="let product of products">
+      <app-product-item data-cy="product-card" [product]="product"></app-product-item>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

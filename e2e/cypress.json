@@ -1,0 +1,20 @@
+{
+  "requestTimeout": 30000,
+  "responseTimeout": 50000,
+  "pageLoadTimeout": 100000,
+  "defaultCommandTimeout": 8000,
+  "numTestsKeptInMemory": 1,
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "baseUrl": "http://localhost:4200",
+  "reporter": "junit",
+  "video": false,
+  "chromeWebSecurity": false,
+  "reporterOptions": {
+    "toConsole": true
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}

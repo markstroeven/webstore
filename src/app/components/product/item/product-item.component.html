@@ -1,0 +1,35 @@
+<mat-card class="product" [ngClass]="{'is-selected': product.isSelected}">
+  <mat-card-header [ngClass]="{'wishlist-card-header': mode === 'wishlist'}">
+    <div *ngIf="mode === 'wishlist'">
+      <img data-cy="product-card-image" *ngIf="product.imageUrl; else placeholder" mat-card-image [src]="product.imageUrl" alt="product-image"/>
+      <ng-template #placeholder>
+        <img data-cy="product-card-image" mat-card-image src="/assets/images/placeholder.png" alt="product-image"/>
+      </ng-template>
+    </div>
+    <mat-card-title data-cy="product-card-title">{{product.name}}</mat-card-title>
+    <mat-card-subtitle data-cy="product-card-subtitle">{{product.category}} - €{{product.price}}</mat-card-subtitle>
+  </mat-card-header>
+  <div class="image-container" *ngIf="mode === 'default'">
+    <img data-cy="product-card-image" *ngIf="product.imageUrl; else placeholder" mat-card-image [src]="product.imageUrl" alt="product-image"/>
+    <ng-template #placeholder>
+      <img data-cy="product-card-image" mat-card-image src="/assets/images/placeholder.png" alt="product-image"/>
+    </ng-template>
+  </div>
+  <mat-card-content *ngIf="mode === 'default'">
+    <p data-cy="product-card-description" class="content">{{product.description}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <form name="quantityForm" *ngIf="mode === 'wishlist'">
+      <mat-form-field appearance="standard">
+        <mat-label>Kwantiteit</mat-label>
+        <input [(ngModel)]="product.quantity" (ngModelChange)="persistWishlisht($event)" matInput [name]='product.id'>
+      </mat-form-field>
+    </form>
+    <button data-cy="product-card-action" class="favorite-button" matTooltip="Voeg toe aan verlanglijst" *ngIf="mode === 'default'" (click)="addToFavorites(product)" mat-fab>
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button data-cy="product-card-action" matTooltip="Verwijder item uit verlanglijst" *ngIf="mode === 'wishlist'" (click)="removeFromFavorites(product)" mat-button>
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>

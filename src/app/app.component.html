@@ -1,0 +1,20 @@
+<mat-toolbar>
+  <img data-cy="logo" src="/assets/images/g2.png" alt="logo-image">
+  <span data-cy="title">G2 E-store</span>
+  <button data-cy="favorites" (click)="drawer.toggle()"
+          matTooltip="Open verlanglijst"
+          mat-raised-button
+          matBadgePosition="after"
+          [matBadgeHidden]="amountOfItemsInFavorites < 1"
+          [matBadge]="amountOfItemsInFavorites">
+    <mat-icon>favorite</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="favorites-sidenav" mode="over">
+    <app-favorites></app-favorites>
+  </mat-drawer>
+  <div class="example-sidenav-content">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>
